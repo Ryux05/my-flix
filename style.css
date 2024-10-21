@@ -1,0 +1,26 @@
+/* Keyframes for slide down animation */
+@keyframes slideDown {
+  0% {
+    top: -100px; /* Start above the viewport */
+  }
+  100% {
+    top: 0; /* End at the top of the viewport */
+  }
+}
+
+/* Apply the animation to the pop-up */
+.slide-down {
+  animation: slideDown 0.5s forwards;
+}
+
+.bg-anime {
+  background-image: url("./wallpaper-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-black{
+    background-color: black;
+    opacity: 50%;
+}
